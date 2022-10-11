@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppLogin</string>
+    <string name="titulo">Seja bem vindo!</string>
+    <string name="subtitulo">Este sistema é muito legal! Se registre hehe</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="loginAuten">LOGIN</string>
+    <string name="senhaAutenti">SENHA</string>
+    <string name="entrarAutent">Entrar</string>
+</resources>

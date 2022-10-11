@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp">
+
+    <TextView
+        android:id="@+id/txtLoginAutenticacao"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginAuten"
+        />
+
+    <EditText
+        android:id="@+id/edtLoginAutenticacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLoginAutenticacao"/>
+
+    <TextView
+        android:id="@+id/txtSenhaAutenticacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/senhaAutenti"
+        android:layout_below="@+id/edtLoginAutenticacao"
+        />
+
+    <EditText
+        android:id="@+id/edtSenhaAutenticacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSenhaAutenticacao"/>
+
+    <Button
+        android:id="@+id/btnEntrarAutenticacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtSenhaAutenticacao"
+        android:text="@string/entrarAutent" />
+</RelativeLayout>
